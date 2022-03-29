@@ -34,11 +34,6 @@ const clearStorage = (dataKey) => {
 const renderInputs = () => {
 	clearStorage('madlib')
 	// show inputs fields
-	document.querySelector('main').innerHTML = `
-	<div>
-		<label for="adjective">Please enter an adjective</label>
-		<input type="text" id="adjective" name="adjective" size="25">
-	</div>`
 
 	//show 'Tell Story' button
 }
